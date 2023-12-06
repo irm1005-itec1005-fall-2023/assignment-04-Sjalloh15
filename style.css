@@ -11,7 +11,7 @@
   /* Core colours */
   /* https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
   --colour-amaranth: #e63946;
-  --colour-peppermint: #f1faee;
+  --colour-peppermint: #ae5b77;
   --colour-aquaisland: #a8dadc;
   --colour-wedgewood: #457b9d;
   --colour-cello: #1d3557;
@@ -40,7 +40,39 @@ main {
   justify-content: center;
   align-items: center;
 }
+.container {
+  background-color: rgb(112, 89, 106);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
 
+h1 {
+  color: #ea98d2; /* White text */
+}
+
+.add-todo {
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px;
+  background-color: #353232; /* White button background */
+  color: #f095c9; /* Green button text color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0; /* Light gray hover background */
+}
 
 /****** Screen reader text utility clsas *******/
 .sr-only {
